@@ -11,10 +11,10 @@ namespace Assignment2
     {
         private static void Main(string[] args)
         {
-            //Console.WriteLine("Abstract Factory");
-            //AbstractFactoryMain abstractFactory = new();
-            //abstractFactory.Run();
-            //Console.WriteLine();
+            Console.WriteLine("Abstract Factory");
+            AbstractFactoryMain abstractFactory = new();
+            abstractFactory.Run();
+            Console.WriteLine();
 
             Console.WriteLine("Facade");
             FacadeMain facadeMain = new();
