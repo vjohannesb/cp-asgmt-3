@@ -10,8 +10,8 @@ namespace Assignment2.Facade
     {
         public void Run()
         {
-            WordsFacade.Save();
-            WordsFacade.Load();
+            WordFacade.Save();
+            WordFacade.Load();
         }
     }
 }
